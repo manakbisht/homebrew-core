@@ -5,11 +5,6 @@ class HackernewsTui < Formula
   sha256 "77abc579f58ed33905f00eb4d6047b1d7f30a0b4ed98b44b36ff95648c6ebae0"
   license "MIT"
 
-  livecheck do
-    url :stable
-    strategy :github_latest
-  end
-
   depends_on "rust" => :build
 
   def install
