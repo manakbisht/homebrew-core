@@ -8,8 +8,7 @@ class HackernewsTui < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args(root: ".", path: "hackernews_tui")
-    bin.install "bin/hackernews_tui" => "hackernews-tui"
+    system "cargo", "install", *std_cargo_args(path: "hackernews_tui")
   end
 
   test do
