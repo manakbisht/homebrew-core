@@ -89,6 +89,7 @@ env:
     arrayfire
     artillery
     arturo
+    ascii
     asciidoctorj
     asdf
     ask-cli
@@ -140,6 +141,7 @@ env:
     batik
     bazarr
     bazel
+    bazel-diff
     bazelisk
     bbtools
     bcftools
@@ -342,6 +344,7 @@ env:
     core-lightning
     coredns
     corepack
+    corral
     corrosion
     cortex
     cosign
@@ -357,6 +360,7 @@ env:
     cpu_features
     cpufetch
     cpuid
+    cql-proxy
     crane
     croaring
     croc
@@ -643,6 +647,7 @@ env:
     geph4
     gerbil-scheme
     gh
+    ghq
     ghz
     ghz-web
     gickup
@@ -661,6 +666,7 @@ env:
     gitql
     glassfish
     gleam
+    glibmm
     global
     glooctl
     gmailctl
@@ -672,6 +678,7 @@ env:
     go-feature-flag-relay-proxy
     go-md2man
     goaccess
+    goctl
     goffice
     gofumpt
     gojq
@@ -687,6 +694,7 @@ env:
     goreman
     gosec
     gostatic
+    gotestwaf
     govc
     gowsdl
     gpg-tui
@@ -702,6 +710,7 @@ env:
     gromacs
     groovy
     groovysdk
+    grype
     gsmartcontrol
     gsoap
     gupnp
@@ -709,9 +718,11 @@ env:
     hadoop
     halide
     hapi-fhir-cli
+    haproxy
     hasura-cli
     hcloud
     helm
+    helm-ls
     helmfile
     helmsman
     hermit
@@ -737,6 +748,7 @@ env:
     imap-backup
     imapsync
     imgproxy
+    immortal
     influxdb
     influxdb-cli
     influxdb@1
@@ -745,14 +757,17 @@ env:
     ipinfo-cli
     ipmiutil
     ipopt
+    ipython
     ircd-hybrid
     istioctl
     ittapi
     ivy
+    ivykis
     jadx
     jaq
     java-service-wrapper
     jc
+    jdtls
     jena
     jenkins
     jenkins-job-builder
@@ -763,12 +778,14 @@ env:
     jj
     jmeter
     jnethack
+    jose
     jql
     jrnl
     jruby
     jsonnet
     jsvc
     juju
+    jupyterlab
     just
     k2tf
     k3d
@@ -784,6 +801,7 @@ env:
     kcptun
     keptn
     kepubify
+    kew
     keydb
     ki
     kickstart
@@ -845,12 +863,14 @@ env:
     librespot
     libressl
     libsndfile
+    libucl
     libxkbfile
     lima
     linkerd
     linode-cli
     liquibase
     llm
+    lmdb
     lmod
     localstack
     locust
@@ -860,6 +880,7 @@ env:
     luit
     lux
     lychee
+    lzip
     macchina
     mackup
     mage
@@ -888,17 +909,21 @@ env:
     metabase
     micro
     micronaut
+    mighttpd2
     mill
     mimirtool
     minetest
     minikube
     miniserve
+    minizinc
+    minuit2
     mmark
     mmctl
     moar
     mockery
     mockserver
     moco
+    modsecurity
     molecule
     mongocli
     mongodb-atlas-cli
@@ -926,6 +951,7 @@ env:
     neo4j
     neofetch
     neomutt
+    neon
     nerdctl
     nest
     netdata
@@ -960,6 +986,7 @@ env:
     onedrive
     ooniprobe
     opa
+    openh264
     openiothub-server
     openjph
     openrtsp
@@ -980,6 +1007,7 @@ env:
     ott
     oxipng
     pacapt
+    pandoc-crossref
     passenger
     patchelf
     payara
@@ -987,6 +1015,7 @@ env:
     pdftk-java
     pdm
     pdnsrec
+    perltidy
     pfetch-rs
     pgbadger
     pgbouncer
@@ -998,6 +1027,8 @@ env:
     phpmd
     phpmyadmin
     phpstan
+    phpunit
+    phylum-cli
     pianod
     picard-tools
     pig
@@ -1011,6 +1042,7 @@ env:
     pnpm
     pocketbase
     podman
+    popeye
     postgis
     powerman
     pre-commit
@@ -1035,6 +1067,7 @@ env:
     pyoxidizer
     pyright
     python-cli-helpers
+    python-mako
     qbs
     qd
     qjackctl
@@ -1050,6 +1083,7 @@ env:
     rbw
     rclone
     rcs
+    readpe
     rebar3
     recode
     regina-rexx
@@ -1063,6 +1097,7 @@ env:
     rhit
     riemann
     rke
+    roadrunner
     rollup
     rosa-cli
     rover
@@ -1070,7 +1105,9 @@ env:
     rqlite
     rswift
     rubberband
+    ruff
     rustup-init
+    rye
     s-search
     s2n
     saml2aws
@@ -1111,6 +1148,7 @@ env:
     sloc
     smimesign
     sn0int
+    snakemake
     sniffer
     sniffglue
     snowflake
@@ -1126,6 +1164,7 @@ env:
     sqlancer
     sqlc
     sqlmap
+    sqlpage
     sqlx-cli
     squid
     sshs
@@ -1138,6 +1177,7 @@ env:
     stellar-core
     step
     storm
+    strace
     streamlink
     stress-ng
     structurizr-cli
@@ -1154,17 +1194,20 @@ env:
     swagger-codegen
     swagger-codegen@2
     swagger2markup-cli
+    syft
     syncthing
     sysdig
     talhelper
     talisman
     tanka
+    taplo
     tcsh
     tctl
     tealdeer
     tectonic
     tektoncd-cli
     teku
+    telegraf
     teleport
     tendermint
     tengo
@@ -1176,6 +1219,7 @@ env:
     terraform-rover
     terraformer
     terragrunt
+    terragrunt-atlantis-config
     terrascan
     testkube
     tfsec
@@ -1196,19 +1240,23 @@ env:
     tomee-plus
     tomee-webprofile
     topgrade
+    trader
     traefik
     trafficserver
+    translate-toolkit
     tree-sitter
     triangle
     trivy
     trojan-go
     trufflehog
     typedb
+    typescript-language-server
     typos-cli
     tz
+    ugit
     uni
     universal-ctags
-    usb
+    usb.ids
     v2ray
     vala
     valabind
@@ -1221,11 +1269,14 @@ env:
     vercel-cli
     vgrep
     virgil
+    virtualenvwrapper
     virustotal-cli
     vite
     vitess
     vivid
     vnstat
+    volatility
+    volk
     volta
     vpn-slice
     vsearch
@@ -1236,7 +1287,9 @@ env:
     wallpaper
     wapm
     wartremover
+    wasm-micro-runtime
     wasm-pack
+    wasm-tools
     wasmer
     wasmtime
     watchexec
@@ -1263,11 +1316,13 @@ env:
     xerces-c
     xgboost
     xh
+    xkbcomp
     xkeyboardconfig
     xplr
     xray
     yaegi
     ykman
+    yle-dl
     yosys
     youtubedr
     yq

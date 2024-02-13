@@ -3,18 +3,18 @@ class CondaLock < Formula
 
   desc "Lightweight lockfile for conda environments"
   homepage "https://github.com/conda/conda-lock"
-  url "https://files.pythonhosted.org/packages/b4/11/2453070fa3c7262dfde48c19e316a11d5891a794160d9f44aa4b79890ad5/conda_lock-2.5.3.tar.gz"
-  sha256 "430815c7e74734ae20ba9d2ea6a12cfb38cbe283f6f1466a5de5762a68559e97"
+  url "https://files.pythonhosted.org/packages/48/27/91cf799143ad5577ab67a3237672fcfe6536980a614e0f25836ddea582fc/conda_lock-2.5.5.tar.gz"
+  sha256 "a6840f8f8ba6f9f8ece40c8b48d683f0588ccf29199f149bd94a712d58d789bc"
   license "MIT"
 
   bottle do
-    sha256 cellar: :any,                 arm64_sonoma:   "02ec8c6d825e1b9bb880e083126176aa99cb424211ab438162b0eea6d2cd71d5"
-    sha256 cellar: :any,                 arm64_ventura:  "e4eb0d776ca41837a0bd55f76f572c4c49d81e84abc41aac6b5cb9ba89cf30a1"
-    sha256 cellar: :any,                 arm64_monterey: "9937db05b266a184862742d3018c5a4a5d1e30d4b8c45d93786caefa3c1aeb53"
-    sha256 cellar: :any,                 sonoma:         "c847cfa061e883e20b82245196e083f1183bea5090198867f841b17778c385ff"
-    sha256 cellar: :any,                 ventura:        "f22cb3c12aae69b86446962edea6dbb01379cc2811fe4b8fa5c75f8bc6b52573"
-    sha256 cellar: :any,                 monterey:       "e5e59164eedd17379640102cbe29a74b816ac34503129b95cf33240417b8b4e0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "15ab75328a4f04ec6bd3adafa292f52b64f5022009a45c4490a7c475b745a233"
+    sha256 cellar: :any,                 arm64_sonoma:   "115dee852366ff7afb6a6b3abeb75a5ac0829608b26afd502b5061fac69211d9"
+    sha256 cellar: :any,                 arm64_ventura:  "f9ec71acd98aa33627ce13b727bdba1532b22041efd976439091dda3fe10213a"
+    sha256 cellar: :any,                 arm64_monterey: "9d289e076926d1dcf346eb27393be7f483901ea6bc7eaa3d5f0f76235f80bec2"
+    sha256 cellar: :any,                 sonoma:         "d5e5e86d44a46663085cbbb68f13e00ec610e366d998566c83329fd76bd4c67c"
+    sha256 cellar: :any,                 ventura:        "8491ad86e78f179be465f66aabfa50c1c940f2c4e0dbae0b04858f85db9535b0"
+    sha256 cellar: :any,                 monterey:       "f0e17207fbd84598375af6742807ed725ac78e2d57b00f749ab5ff95536bb653"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "f2e0b75eb08070205645c672fbf02c06b75b924cb8f74c79cb18dc270e423271"
   end
 
   depends_on "rust" => :build # for pydantic
@@ -145,13 +145,18 @@ class CondaLock < Formula
   end
 
   resource "ruamel-yaml" do
-    url "https://files.pythonhosted.org/packages/82/43/fa976e03a4a9ae406904489119cd7dd4509752ca692b2e0a19491ca1782c/ruamel.yaml-0.18.5.tar.gz"
-    sha256 "61917e3a35a569c1133a8f772e1226961bf5a1198bea7e23f06a0841dea1ab0e"
+    url "https://files.pythonhosted.org/packages/29/81/4dfc17eb6ebb1aac314a3eb863c1325b907863a1b8b1382cdffcb6ac0ed9/ruamel.yaml-0.18.6.tar.gz"
+    sha256 "8b27e6a217e786c6fbe5634d8f3f11bc63e0f80f6a5890f28863d9c45aac311b"
   end
 
   resource "ruamel-yaml-clib" do
     url "https://files.pythonhosted.org/packages/46/ab/bab9eb1566cd16f060b54055dd39cf6a34bfa0240c53a7218c43e974295b/ruamel.yaml.clib-0.2.8.tar.gz"
     sha256 "beb2e0404003de9a4cab9753a8805a8fe9320ee6673136ed7f04255fe60bb512"
+  end
+
+  resource "setuptools" do
+    url "https://files.pythonhosted.org/packages/fc/c9/b146ca195403e0182a374e0ea4dbc69136bad3cd55bc293df496d625d0f7/setuptools-69.0.3.tar.gz"
+    sha256 "be1af57fc409f93647f2e8e4573a142ed38724b8cdd389706a867bb4efcf1e78"
   end
 
   resource "smmap" do
